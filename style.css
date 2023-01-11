@@ -1,0 +1,30 @@
+input{
+    border-color: #0080ff #00b3ff;
+    background: linear-gradient(#0c75ff, #04b4ff) #00ffc8;
+    width: 110px;
+}
+
+.input {
+    padding:10px;
+    border-radius:10px;
+    
+}
+
+input::placeholder {
+    color: rgb(57, 48, 48);
+}
+
+button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #0080ff #000 #00b3ff;
+    border-radius: 6px;
+    background: linear-gradient(#0c75ff, #04b4ff) #00ffc8;
+    transition: 0.2s;
+}
+
